@@ -11,7 +11,7 @@
 //  const btn = document.querySelector('#btn');
 //  btn.onclick = () => alert("Hello World");
 
-///--------Method 3----------///
+///--------Method 3----------///                     <---- This on is the best solution
 
 //  <!-- the HTML file -->  //
 //  <button id="btn">Click Me Too</button>
