@@ -1,25 +1,30 @@
 const add = function() {
-	
+	return a + b;
 };
 
 const subtract = function() {
-	
+	return a - b;
 };
 
 const sum = function() {
-	
+  return array.reduce((total, current) => total + current, 0);
 };
 
 const multiply = function() {
-
+  return a * b;
 };
 
 const power = function() {
-	
+	return Math.pow(a, b);
 };
 
 const factorial = function() {
-	
+  if (n === 0) return 1;
+  let product = 1;
+  for (let i = n; i > 0; i--) {
+    product *= i;
+  }
+  return product;
 };
 
 // Do not edit below this line
